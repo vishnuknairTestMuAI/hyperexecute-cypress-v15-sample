@@ -17,7 +17,7 @@ cypressOps:
 
 pre:
   - npm install
-  - npm install cypress --save-dev
+  - npm install cypress@15.8.2 --save-dev
   - npm i lambdatest-cypress-cli
 
 matrix:
